@@ -3,9 +3,9 @@
 Using the following include statements retrive all the
 header files I need
 */
-#include <iostream>;
-#include <string>;
-
+#include <iostream>
+#include <string>
+#include <fstream>
 //Using the standerd namespace
 using namespace std;
 
