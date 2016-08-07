@@ -47,7 +47,7 @@ private:
 	vector<Weapon> allWeapons;
 	vector<Aurmor> allAurmor;
 public:
-	void Out(string);
+	
 	int stage = 0;
 	GameController();
 	~GameController();
