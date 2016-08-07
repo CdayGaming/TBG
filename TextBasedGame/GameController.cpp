@@ -8,7 +8,15 @@ return out;
 }
 */
 
-//The cout version
+
+
+//The cout version just making it easier for me(caiden) 
+//You can use cout if you want I just made this so we can creat our own shortcuts
+/*
+CURRENT SHORTCUTS:
+	@l = new line
+	@c = Clear console
+*/
 void Out(string _out)
 {
 	string output;
@@ -20,12 +28,15 @@ void Out(string _out)
 			{
 			case 'l':
 				output = output + "\n";
-				i++;
+				break;
+			case 'c':
+				system("cls");
+				break;
 
 			default:
 				break;
 			}
-
+			i++;
 		}
 		else
 		{
@@ -39,7 +50,7 @@ void Out(string _out)
 GameController theGame;
 int main()
 {
-	Out("This is a beta mode for caiden kehrers use only ");
+	Out("This is a beta mode for Caiden or Batyas use only ");
 
 	string input;
 	do
@@ -112,7 +123,7 @@ int main()
 				{
 					do {
 						cin.clear();
-						system("cls");
+						Out("@c");
 						Out("Input a number between 0 and 10 for the time to wait in seconds@l Current amount is : " + to_string(theGame.theSettings.error_time_delay));
 						cin >> inputer;
 
