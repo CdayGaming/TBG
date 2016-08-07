@@ -15,7 +15,6 @@ private:
 	//The player statuses - controles the 
 	Status playerStats;
 
-
 public:
 	Player(int _X, int _Y, Weapon _wepon, Aurmor aurmorinorder[4], Status statuses);
 	Player();
