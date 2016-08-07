@@ -112,11 +112,15 @@
   <ItemGroup>
     <ClCompile Include="CustomErrors.cpp" />
     <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Items.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomErrors.h" />
     <ClInclude Include="GameController.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Items.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
