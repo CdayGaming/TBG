@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
 	
-
+	ya
 	//Pause the system
 	system("Pause");
 	return 0;
