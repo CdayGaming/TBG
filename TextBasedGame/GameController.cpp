@@ -20,7 +20,7 @@ CURRENT SHORTCUTS:
 void Out(string _out)
 {
 	string output;
-	for (int i = 0; i < _out.size(); i++)
+	for (int i = 0; i < ((int)_out.size()); i++)
 	{
 		if (_out[i] == '@')
 		{

@@ -13,7 +13,7 @@ Inventory::~Inventory()
 
 void Inventory::Additem(Item  _toAdd)
 {
-	if ((itemInv.size() + weapInv.size() + aurInv.size()) <inventoryMaxSize)
+	if (((int)(itemInv.size() + weapInv.size() + aurInv.size())) < inventoryMaxSize)
 	{
 		itemInv.push_back(_toAdd);
 	}
@@ -25,7 +25,7 @@ void Inventory::Additem(Item  _toAdd)
 
 void Inventory::Additem(Weapon  _toAdd)
 {
-	if ((itemInv.size() + weapInv.size() + aurInv.size()) < inventoryMaxSize)
+	if (((int)(itemInv.size() + weapInv.size() + aurInv.size())) < inventoryMaxSize)
 	{
 		weapInv.push_back(_toAdd);
 	}
@@ -37,7 +37,7 @@ void Inventory::Additem(Weapon  _toAdd)
 
 void Inventory::Additem(Aurmor _toAdd)
 {
-	if ((itemInv.size() + weapInv.size() + aurInv.size()) < inventoryMaxSize)
+	if (((int)(itemInv.size() + weapInv.size() + aurInv.size())) < inventoryMaxSize)
 	{
 		aurInv.push_back(_toAdd);
 	}

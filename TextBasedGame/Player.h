@@ -1,7 +1,7 @@
 #pragma once
-#include "items.h";
+#include "items.h"
 #include "Inventory.h"
-#include "Status.h";
+#include "Status.h"
 class Player
 {
 private:

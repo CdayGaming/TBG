@@ -1,6 +1,6 @@
 #pragma once
-#include <string>;
-#include "Items.h";
+#include <string>
+#include "Items.h"
 using namespace std;
 
 class InventoryOverFlow
