@@ -32,7 +32,8 @@ void Out(string _out)
 			case 'c':
 				system("cls");
 				break;
-
+			case 't':
+				output = output + "    ";
 			default:
 				break;
 			}
