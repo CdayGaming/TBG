@@ -9,6 +9,7 @@
 #include <ctime>
 #include <stdio.h>
 #include <time.h>
+
 class Settings
 {
 public:

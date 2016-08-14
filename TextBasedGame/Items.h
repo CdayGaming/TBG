@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 using namespace std;
+
 class Item
 {
 private:
@@ -14,10 +15,11 @@ class Weapon
 {
 private:
 	string name;
-	int atkPlusLow, atkPlusHigh;
+	
 
 
 public:
+	int atkPlusLow, atkPlusHigh;
 	Weapon();
 	Weapon(string _name, int _atkPlusLow, int _atkPlusHigh);
 };

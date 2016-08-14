@@ -1,6 +1,6 @@
 #include "Status.h"
 
-
+ 
 void Status::StatusUpdate()
 {
 	if (poisened)
