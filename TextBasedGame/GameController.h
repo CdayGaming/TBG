@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <time.h>
 #include "Settings.h"
-//This adds in a function for me so I can do delay the console 
+//This adds in a function for me so I can do delay the console
 #if defined(__WIN32__) || defined(_WIN32) || defined(WIN32) || defined(__WINDOWS__) || defined(__TOS_WIN__)
 
 #include <windows.h>

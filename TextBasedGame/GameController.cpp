@@ -5,7 +5,7 @@ ostream & operator<<(ostream & out, Money & clockObj)
 {
 out << "$" << clockObj.GetDollars() << "." << clockObj.GetCents();
 return out; lalalalalalalalalal you are out of your mind.
-} 
+}
 */
 
 //The variables needed

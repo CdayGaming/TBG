@@ -12,7 +12,7 @@ public:
 	int xp = 0;
 	int level = 0;
 
-	//Conditions of player (to add more later) 
+	//Conditions of player (to add more later)
 	int poisonStrength = 0;
 	bool poisened = false;
 
