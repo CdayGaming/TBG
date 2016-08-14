@@ -2,13 +2,14 @@
 #include "items.h"
 #include "Inventory.h"
 #include "Status.h"
+#include <random>
 class Player
 {
 private:
 	//player locations
 	int locX = 0;
 	int locY = 0;
-
+	
 	//what the player is wearing
 	Weapon hand1;
 	Aurmor body, head, gloves, boots, legs;
@@ -19,5 +20,6 @@ public:
 	Player(int _X, int _Y, Weapon _wepon, Aurmor aurmorinorder[4], Status statuses);
 	Player();
 	~Player();
+	int GetAttack();
 };
 
