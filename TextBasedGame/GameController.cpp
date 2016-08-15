@@ -37,7 +37,7 @@ void out(string _out)
 			case 't':
 				output = output + "    ";
 				break;
-			case'r':
+			case'~':
 				output = output+to_string((theGame.GetPlayer().GetAttack()));
 			default:
 				break;
@@ -105,7 +105,7 @@ int main()
 				out("__________Settings__________@l");
 				out("Edit:@l");
 				//edited this part to allow for testing the players random
-				out("1)Error speed@l2)Save and Exit@l3)Back@l4)Test the random@l");
+				out("1)Error speed@l2)Save and Exit@l3)Back@l");
 				out("Type the number of the item you want to do/edit : ");
 				cin >> input;
 				int settingInput = 0;
@@ -147,9 +147,9 @@ int main()
 					//add this when we 
 					out("Not availible yet");
 					break;
-				case 4:
+				case -1:
 					//remove this later once the player attack it all set up
-					out("@r");
+					out("@~");
 					break;
 				default:
 					throw invalidInput(input);
