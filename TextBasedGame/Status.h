@@ -6,7 +6,7 @@ public:
 	int health = 0;
 	int inteligence = 0;
 	int money = 0;
-	int damagelow = 0, damagehigh = 0;
+	int damagelow = 0, damagehigh = 1;
 	Inventory playerInv;
 	//player leveling system
 	int xp = 0;

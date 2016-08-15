@@ -57,6 +57,7 @@ int main()
 {
 	out("This is a beta mode for Caiden or Batyas use only ");
 	
+	
 	string input;
 	do
 	{
@@ -198,4 +199,9 @@ GameController::~GameController()
 
 void GameController::check()
 {
+}
+
+void GameController::createNewPlayer(Player _tomake)
+{
+	thePlayer = _tomake;
 }

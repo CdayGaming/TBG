@@ -31,6 +31,8 @@ inline void delay(unsigned long ms)
 }
 
 #endif 
+
+
 //Rest of code past this
 
 
@@ -48,10 +50,12 @@ private:
 	vector<Aurmor> allAurmor;
 public:
 	Player GetPlayer();
+	
 	int stage = 1;
 	GameController();
 	~GameController();
 	void check();
 	Settings theSettings;
+	void createNewPlayer(Player);
 };
 
