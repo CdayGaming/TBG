@@ -17,6 +17,7 @@ GameController theGame;
 CURRENT SHORTCUTS:
 	@l = new line
 	@c = Clear console
+	@t = Tab
 */
 void out(string _out)
 {
