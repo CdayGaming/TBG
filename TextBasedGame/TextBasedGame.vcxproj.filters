@@ -36,6 +36,12 @@
     <ClCompile Include="Status.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomErrors.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
